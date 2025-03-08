@@ -158,5 +158,6 @@ data spo_lib.spotify_cleaned;
 run;
 
 /* We do have an apple code. However, I did not work on the apple code for SAS, this is the code that I worked on. */
-* linguist-language=SAS
-
+* linguist-vendored=false
+*.sas linguist-detectable=true
+*.sas linguist-language=SAS
